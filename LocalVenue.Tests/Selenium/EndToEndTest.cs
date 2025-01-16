@@ -12,7 +12,7 @@ public class EndToEndTest : IDisposable
     public IWebDriver driver { get; private set; }
     public IDictionary<String, Object> vars { get; private set; }
     public IJavaScriptExecutor js { get; private set; }
-    private string baseUrl = "https://localvenue-webapp-casp0006.azurewebsites.net";
+    private string baseUrl = "https://localvenue-webapp-frbr0006.azurewebsites.net";
 
     public EndToEndTest()
     {
